@@ -1,2 +1,4 @@
-# radixtheme.github.io
-Landing page for Radix Theme.
+
+# Blog
+
+The default [wintersmith](https://github.com/jnordberg/wintersmith) template
