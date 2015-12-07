@@ -1,6 +1,6 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "/",
     "name": "Radix Theme",
     "owner": "Radix",
     "description": "Responsive base theme for Drupal and BackdropCMS"
