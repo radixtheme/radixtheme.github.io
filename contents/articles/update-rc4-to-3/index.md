@@ -39,9 +39,9 @@ Update the following values in bower.json, config.json and package.json:
 4. Copy `radix/kits/default/scss/radix` to `/path/to/nameofyoursubtheme/scss/radix`
 5. Rename `/path/to/nameofyoursubtheme/scss/global` to `/path/to/nameofyoursubtheme/scss/base`
 6. Rename `/path/to/nameofyoursubtheme/scss/partials` to `/path/to/nameofyoursubtheme/scss/components`
-7. Rename `/path/to/nameofyoursubtheme/scss/base/_helper.scss` to `/path/to/nameofyoursubtheme/scss/base/_helpers.css`
-8. Rename `/path/to/nameofyoursubtheme/scss/base/_mixin.scss` to `/path/to/nameofyoursubtheme/scss/base/_mixins.css`
-9. Rename `/path/to/nameofyoursubtheme/scss/base/_variable.scss` to `/path/to/nameofyoursubtheme/scss/base/_variables.css`
+7. Rename `/path/to/nameofyoursubtheme/scss/base/_helper.scss` to `/path/to/nameofyoursubtheme/scss/base/_helpers.scss`
+8. Rename `/path/to/nameofyoursubtheme/scss/base/_mixin.scss` to `/path/to/nameofyoursubtheme/scss/base/_mixins.scss`
+9. Rename `/path/to/nameofyoursubtheme/scss/base/_variable.scss` to `/path/to/nameofyoursubtheme/scss/base/_variables.scss`
 
 
 #### Step 6: Fix JS files and directories
