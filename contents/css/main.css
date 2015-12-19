@@ -135,12 +135,12 @@ ul.logos img {
 ul.logos li {
   display: inline-block;
   list-style: none outside none;
-  margin: 0;
+  margin: 0 30px 30px 0;
   padding: 0;
   text-align: center;
 }
-ul.logos li + li {
-  margin-left: 30px;
+ul.logos li:last-child {
+  margin-right: 0;
 }
 ul.logos li span {
   display: block;
