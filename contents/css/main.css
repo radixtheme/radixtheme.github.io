@@ -127,6 +127,7 @@ hr {
 
 ul.logos {
   text-align: center;
+  margin: 0;
 }
 ul.logos img {
   max-width: 80px;
@@ -464,5 +465,21 @@ code.lang-markdown .bullet {
   }
   footer .about p {
     margin-bottom: 1em;
-  }
+}
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.about h3 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.about ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
 }

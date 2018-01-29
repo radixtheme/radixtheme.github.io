@@ -1,19 +1,18 @@
-
 extends layout
 
 block content
-  include author
-  each article in articles
-    article.article.intro
-      header
-        p.date
-          span Articles
-        h2
-          a(href=article.url)= article.title
-
-block prepend footer
-  div.nav
-    if prevPage
-      a(href=prevPage.url) « Newer
-    if nextPage
-      a(href=nextPage.url) Next page »
+  div.about
+    h3 Distributions using Radix
+    ul
+      li
+        strong Open Atrium
+        p Open Atrium is an intranet in a box that has group spaces to allow different teams to have their own conversations and collaboration.
+      li
+        strong Open Academy
+        p Open Academy is a Drupal distribution that brings the best in web publishing for higher education on a customizable Drupal platform.
+      li
+        strong Open Berkeley
+        p Open Berkeley is a turnkey web platform solution for UC Berkeley campus websites.
+      li
+        strong Open Restaurant
+        p The Open Restaurant distribution has everything you need to kickstart your restaurant website. It comes with a menu management system, a reservation system, a customizable blog and events management.
