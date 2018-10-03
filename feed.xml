@@ -4,7 +4,7 @@
     <title>Radix Theme</title>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>/</link>
-    <description>Responsive base theme for Drupal and BackdropCMS</description>
+    <description>Radix is a base theme for Drupal and BackdropCMS built on top of Bootstrap 4. It has Sass, ES6, Browsersync and Font Awesome built in.</description>
     <pubDate>Mon, 07 Dec 2015 10:00:00 +0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>

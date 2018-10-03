@@ -127,25 +127,49 @@ hr {
 
 ul.logos {
   text-align: center;
-  margin: 0;
+  margin: 0 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 ul.logos img {
-  max-width: 80px;
-  max-height: 80px;
+  width: 80px;
+  height: auto;
 }
 ul.logos li {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   list-style: none outside none;
-  margin: 0 30px 30px 0;
+  margin: 0 10px 30px;
   padding: 0;
   text-align: center;
+  width: 25%;
 }
+
+@media only screen and (min-width: 600px) {
+  ul.logos li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
 ul.logos li:last-child {
   margin-right: 0;
 }
 ul.logos li span {
   display: block;
   font-size: 0.85em;
+}
+ul.logos li.browsersync img,
+ul.logos li.drupal img {
+  width: 100px;
+}
+
+ul.logos li.bootstrap span,
+ul.logos li.fontawesome span {
+  margin-top: 10px;
 }
 
 body.article-detail > header {
@@ -482,4 +506,32 @@ code.lang-markdown .bullet {
   list-style: none outside none;
   margin: 0;
   padding: 0;
+}
+
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: table;
+  margin: 15px auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  color: #fff !important;
+  overflow: hidden;
+  background: #2ecc71;
+}
+
+.button:hover {
+  background: #24b662;
 }
