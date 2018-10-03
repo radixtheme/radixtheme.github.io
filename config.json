@@ -3,7 +3,7 @@
     "url": "/",
     "name": "Radix Theme",
     "owner": "Radix",
-    "description": "Responsive base theme for Drupal and BackdropCMS"
+    "description": "Radix is a base theme for Drupal and BackdropCMS built on top of Bootstrap 4. It has Sass, ES6, Browsersync and Font Awesome built in."
   },
   "plugins": [
     "./plugins/paginator.coffee"
@@ -22,5 +22,6 @@
   },
   "paginator": {
     "perPage": 3
-  }
+  },
+  "port": "8080"
 }
