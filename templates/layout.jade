@@ -14,7 +14,7 @@ html(lang='en')
         block title
           = locals.name
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
-      link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Open+Sans:600|Oxygen')
+      link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oxygen:400,700')
       link(rel='stylesheet', href=contents.css['main.css'].url)
   body(class=bodyclass)
     header.header
@@ -37,7 +37,9 @@ html(lang='en')
               li(class='browsersync')
                 img(src='/images/browsersync.svg', title='BrowserSync')
                 span BrowserSync
+          div.buttons
             a(href='https://drupal.org/project/radix', class='button') Download
+            a(href='https://docs.radixtheme.org', class='button button-secondary') Documentation
     div#content
       div.content-wrap
         block content
