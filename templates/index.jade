@@ -1,24 +1,41 @@
 extends layout
 
 block content
-  div.about
-    h3 Distributions using Radix
-    ul
-      li
-        strong Open Atrium
-        p Open Atrium is an intranet in a box that has group spaces to allow different teams to have their own conversations and collaboration.
-      li
-        strong Open Academy
-        p Open Academy is a Drupal distribution that brings the best in web publishing for higher education on a customizable Drupal platform.
-      li
-        strong Open Berkeley
-        p Open Berkeley is a turnkey web platform solution for UC Berkeley campus websites.
-      li
-        strong Open Restaurant
-        p The Open Restaurant distribution has everything you need to kickstart your restaurant website. It comes with a menu management system, a reservation system, a customizable blog and events management.
-      li
-        strong DKAN Open Data Platform
-        p DKAN is a community-driven, free and open source open data platform that gives organizations and individuals ultimate freedom to publish and consume structured information.
-      li
-        strong University of IOWA SiteNow
-        p SiteNow provides flexibility in authoring websites for various audiences.
+  div.content-wrap
+    ul.logos
+      li(class='drupal')
+        img(src='/images/drupal.svg', title='Drupal')
+        span Drupal
+      li(class='bootstrap')
+        img(src='/images/bootstrap.svg', title='Bootstrap')
+        span Bootstrap
+      li(class='fontawesome')
+        img(src='/images/fontawesome.svg', title='Fontawesome')
+        span Fontawesome
+      li(class='browsersync')
+        img(src='/images/browsersync.svg', title='BrowserSync')
+        span BrowserSync
+    div.buttons
+      a(href='https://drupal.org/project/radix', class='button') Download
+      a(href='https://docs.radixtheme.org', class='button button-secondary') Documentation
+    div.about
+      h3 Distributions using Radix
+      ul
+        li
+          strong Open Atrium
+          p Open Atrium is an intranet in a box that has group spaces to allow different teams to have their own conversations and collaboration.
+        li
+          strong Open Academy
+          p Open Academy is a Drupal distribution that brings the best in web publishing for higher education on a customizable Drupal platform.
+        li
+          strong Open Berkeley
+          p Open Berkeley is a turnkey web platform solution for UC Berkeley campus websites.
+        li
+          strong Open Restaurant
+          p The Open Restaurant distribution has everything you need to kickstart your restaurant website. It comes with a menu management system, a reservation system, a customizable blog and events management.
+        li
+          strong DKAN Open Data Platform
+          p DKAN is a community-driven, free and open source open data platform that gives organizations and individuals ultimate freedom to publish and consume structured information.
+        li
+          strong University of IOWA SiteNow
+          p SiteNow provides flexibility in authoring websites for various audiences.

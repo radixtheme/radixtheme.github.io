@@ -1,7 +1,7 @@
 {
   "locals": {
     "url": "/",
-    "name": "Radix Theme",
+    "name": "Radix Theme - Bootstrap 4 for Drupal",
     "owner": "Radix",
     "description": "Radix is a base theme for Drupal and BackdropCMS built on top of Bootstrap 4. It has Sass, ES6, Browsersync and Font Awesome built in."
   },
