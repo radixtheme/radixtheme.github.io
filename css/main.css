@@ -25,9 +25,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #ff8000;
-  text-decoration: underline;
 }
 
 p {
@@ -508,14 +511,18 @@ code.lang-markdown .bullet {
   padding: 0;
 }
 
+.buttons {
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  justify-content: center;
+}
+
 .button {
   font-family: inherit;
-  font-size: inherit;
   background: none;
   cursor: pointer;
   padding: 10px 20px;
-  display: table;
-  margin: 15px auto;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -534,4 +541,12 @@ code.lang-markdown .bullet {
 
 .button:hover {
   background: #24b662;
+}
+
+.button-secondary {
+  background: #3498db;
+}
+
+.button-secondary:hover {
+  background: #2980b9;
 }
